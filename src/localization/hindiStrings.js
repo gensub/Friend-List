@@ -1,0 +1,20 @@
+const hindiStrings = {
+  Name: 'नाम',
+  Email: 'ईमेल',
+  Phone: 'फ़ोन',
+  Work: 'काम',
+  City: 'शहर',
+  Important: 'जरूरी',
+  Edit: 'संपादित करें',
+  Delete: 'हटाना',
+  Search: 'खोज',
+  FriendList: 'मित्र सूची',
+  FriendForm: 'मित्र प्रपत्र',
+  FriendDataTable: 'मित्र डेटा तालिका',
+  FriendDataForm: 'मित्र डेटा प्रपत्र',
+  Submit: 'जमा करें',
+  EmailAddress: 'ईमेल',
+  MobileNumber: 'मोबाइल नंबर',
+  PleaseSelectOne: 'कृपया एक का चयन करें',
+};
+export default hindiStrings;

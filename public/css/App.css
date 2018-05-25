@@ -1,0 +1,116 @@
+tr,td,th{
+  text-align:center;
+}
+.center-align{
+  text-align: center;
+}
+.thead-brown{
+  background-color:green;
+  color:white;
+}
+.sidebar-menu>li>span>a.active{
+  background-color:green !important;
+}
+.logo-lg{
+  color:white !important;
+}
+a{
+  color:green !important;
+}
+.navbar{
+  background-color:#green !important;
+}
+.main-sidebar{
+  background-color:#green !important;
+}
+
+@media (max-width: 767px){
+  .main-sidebar, .left-side {
+    padding-top: 50px !important;
+  }
+}
+.logo{
+  font-family: cursive !important;
+  background-color:green !important;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+  background-color:green !important;
+}
+.main-header{
+    background-color:green;
+}
+
+.header-color{
+   color:white;
+}
+.custom-padding{
+  padding:0px;
+}
+.content-wrapper{
+  min-height: 100% !important;
+}
+.header-font{
+  font-size:175%;
+  padding-top:0px;
+}
+.table-top{
+  padding-top:1%;
+}
+.glyphicon-star {
+  text-shadow:0 0  black,0 0  black,0 0  black,0 0  black,0 0  black !important;
+}
+.react-confirm-alert-button-group > button {
+  background: green !important;
+}
+.react-confirm-alert > h1 {
+  color:#3C8DBC !important;
+}
+span{ border:0 !important; }
+span { outline: none !important; }
+.react-confirm-alert > h3 {
+  font-size:25px !important;
+}
+.active1{
+transform: translateX(0);
+}
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #3c8dbc;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li>span>a.active, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #1e282c;
+}
+
+.skin-blue .sidebar a:hover {
+    text-decoration: none;
+}
+
+.skin-blue .sidebar-menu>li>span>a {
+    border-left: 3px solid transparent;
+}
+
+.skin-blue .sidebar a {
+    color: #b8c7ce;
+}
+
+.sidebar-menu li>span>a {
+    position: relative !important;
+}
+.sidebar-menu>li>span>a {
+    padding: 12px 5px 12px 15px !important;
+    display: block !important;
+}
+.main-footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color:white;
+    padding: 1rem;
+    background-color: green;
+    text-align: center;
+    width:100%;
+}
+.content-header{
+    background-color: green !important;
+}

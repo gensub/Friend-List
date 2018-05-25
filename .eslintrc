@@ -1,0 +1,50 @@
+{
+"parser": "babel-eslint",
+"extends": "airbnb",
+"parserOptions": {
+"ecmaVersion": 6,
+"ecmaFeatures": {
+"jsx": true
+},
+"sourceType": "module"
+},
+"env": {
+"browser": true,
+"node": true,
+"es6": true
+},
+"plugins": [
+"react"
+],
+"ecmaFeatures": {
+"arrowFunctions": true,
+"binaryLiterals": true,
+"blockBindings": true,
+"classes": true,
+"defaultParams": true,
+"destructuring": true,
+"forOf": true,
+"generators": true,
+"modules": true,
+"objectLiteralComputedProperties": true,
+"objectLiteralDuplicateProperties": true,
+"objectLiteralShorthandMethods": true,
+"objectLiteralShorthandProperties": true,
+"octalLiterals": true,
+"regexUFlag": true,
+"regexYFlag": true,
+"spread": true,
+"superInFunctions": true,
+"templateStrings": true,
+"unicodeCodePointEscapes": true,
+"globalReturn": true,
+"jsx": true,
+"js": true,
+"experimentalObjectRestSpread": true
+},
+"rules": {
+"no-undef": 0, // disallow use of undeclared variables unless mentioned in a /*global */ block
+"global-require": 0,
+"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+}
+}
